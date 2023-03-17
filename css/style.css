@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    text-align: center;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../img/hero-background.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content:center; 
+    flex-direction: column;
+    align-items: center;
+    
+}
+div{
+    margin-bottom: 120px;
+}
+img{
+    width: 500px;
+    margin-top: 30px;
+    
+}
+h1{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 86px;
+    color:#8257e5;
+    text-align: center;
+}
+p{
+color: rgba(255, 255, 255, 0.9);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 24px;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.btn{ 
+    color: #ffffff;
+    background-color: #8257e5;
+    border-radius: 20px;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin: 20px;
+    
+}
+.btn:hover{
+    border: 0.5px solid #ffffff78;
+    background-color: #8257e550;  
+    transition: 1s;
+}

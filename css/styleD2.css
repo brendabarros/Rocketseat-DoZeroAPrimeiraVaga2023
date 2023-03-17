@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    text-align: center;
+    padding-top: 160px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+     background-image: url(../img/halloween.jpg);
+    /* background-image: url(../img/imageD2.png); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+h2 span {
+    color: #FFC700;
+
+}
+
+h1 {
+    font-family: 'Emilys Candy', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFC700;
+
+}
+
+
+p {
+    color: white;
+    opacity: .7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+
+}
+
+a {
+    margin: 0 16px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 48px;
+    width: 371px;
+    left: 207px;
+    padding: 12px 32px;
+    text-decoration: none;
+    text-align: center;   
+}
+
+.btn {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration-line: underline;  
+}
+.btn:hover{
+    border: 1px solid #FFC700;
+    color: #FFC700;   
+}
+
+.btn2 {
+    background: #FFC700;
+    color: #040101;
+}
+.btnrosa:hover{
+    border: 1px solid #ffffff;
+       
+}

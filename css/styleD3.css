@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Spectral:wght@500&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+    text-align: center;
+    padding-top: 160px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../img/imageD3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Spectral';
+}
+
+
+
+h1 span {
+    color: #5EEAD4;
+
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: 'Beth Ellen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+    text-align: center;
+    color: #EBF1FB;
+
+}
+
+
+p {
+    color: #EBF1FB;
+    opacity: .7;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 72px;
+
+}
+
+a {
+    margin: 0 16px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 48px;
+    width: 371px;
+    left: 207px;
+    padding: 12px 32px;
+    text-decoration: none;
+    text-align: center;   
+}
+
+.btn {
+    color:  #EBF1FB;;
+    text-decoration-line: underline;  
+}
+.btn:hover{
+    border: 1px solid #5EEAD4;
+    color: #5EEAD4;   
+}
+
+.btn2 {
+    background: #5EEAD4;
+    color: #040101;
+    border-radius: 8px;
+}
+.btn2:hover{
+    border: 2px solid #EBF1FB;
+       
+}
